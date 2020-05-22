@@ -14,7 +14,7 @@ public class SkillsController {
         return "<html>" +
                 "<body>" +
                 "<h1>Skills Tracker</h1>" +
-                "<h2>" +
+                "<h2>THE BEST programming languages.  It's true.</h2>" +
                 "<ol>" +
                 "<li>Basic</li>" +
                 "<li>Pascal</li>" +
@@ -36,27 +36,27 @@ public class SkillsController {
                     "<br>" +
                     "<select name='fave1' id='fave1'>" +
                     "<option value=''>--Please choose an option--</option>"+
-                    "<option value='basic'>Basic</option>" +
-                    "<option value='pascal'>Pascal</option>" +
-                    "<option value='vb'>Visual Basic</option>" +
+                    "<option value='Basic'>Basic</option>" +
+                    "<option value='Pascal'>Pascal</option>" +
+                    "<option value='Visual Basic'>Visual Basic</option>" +
                     "</select>" +
                     "<br>" +
                     "<label for='fave2'>My second favorite language:</label>" +
                     "<br>" +
                     "<select name='fave2' id='fave2'>" +
                     "<option value=''>--Please choose an option--</option>"+
-                    "<option value='basic'>Basic</option>" +
-                    "<option value='pascal'>Pascal</option>" +
-                    "<option value='vb'>Visual Basic</option>" +
+                    "<option value='Basic'>Basic</option>" +
+                    "<option value='Pascal'>Pascal</option>" +
+                    "<option value='Visual Basic'>Visual Basic</option>" +
                     "</select>" +
                     "<br>" +
                     "<label for='fave3'>My third favorite language:</label>" +
                     "<br>" +
                     "<select name='fave3' id='fave3'>" +
                     "<option value=''>--Please choose an option--</option>"+
-                    "<option value='basic'>Basic</option>" +
-                    "<option value='pascal'>Pascal</option>" +
-                    "<option value='vb'>Visual Basic</option>" +
+                    "<option value='Basic'>Basic</option>" +
+                    "<option value='Pascal'>Pascal</option>" +
+                    "<option value='Visual Basic'>Visual Basic</option>" +
                     "</select>" +
                     "<br>" +
                     "<input type ='submit' value='SUBMIT!'>" +
@@ -73,10 +73,17 @@ public class SkillsController {
                         "</h1>" +
                         "<h2>" +
                         "<ol>" +
-                        "<li>Basic</li>" +
-                        "<li>Pascal</li>" +
-                        "<li>Visual Basic</li>" +
+                        "<li>" +
+                        fave1 +
+                        "</li>" +
+                        "<li>" +
+                        fave2 +
+                        "</li>" +
+                        "<li>" +
+                        fave3 +
+                        "</li>" +
                         "</ol>" +
+                        "<h2>" +
                         "</body>" +
                         "</html>";
         }
